@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif; /* Sets the font for the page */
+  background-color: #d6bdbd; /* Light grey background color */
+  color: #333; /* Dark text color */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Styling the header */
+h1 {
+  color: #2c3e50; /* Dark blue color for the header */
+  text-align: center; /* Centers the header text */
+  padding: 20px; /* Adds padding around the header */
+}
+
+/* Styling paragraphs */
+p {
+  font-size: 16px; /* Font size for paragraphs */
+  line-height: 1.6; /* Line height for better readability */
+  margin: 20px; /* Adds space around paragraphs */
+}
+
+/* Styling links */
+a {
+  color: #3498db; /* Blue color for links */
+  text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+  color: #e74c3c; /* Changes color when the link is hovered */
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Styling an unordered list */
+ul {
+  list-style-type: square; /* Changes list bullets to squares */
+  padding-left: 20px; /* Adds padding to the left of the list */
+}
+
+/* Styling individual list items */
+li {
+  margin: 5px 0; /* Adds space between list items */
+}
+
+/* Styling images */
+img {
+  max-width: 100%; /* Makes the image responsive */
+  height: auto; /* Keeps aspect ratio intact */
+}
